@@ -142,3 +142,13 @@ body {
   text-decoration: none;
   background-color: yellow
 }
+
+.position__dots__container {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .position__dots__container {
+    margin-top: 16px;
+  }
+}
