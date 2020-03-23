@@ -1,0 +1,26 @@
+body {
+  font-family: 'Sen', sans-serif;
+}
+
+.section__title {
+  font-size: 26px;
+  font-weight: 700;
+  border-bottom: 4px solid;
+}
+
+.positon {
+  padding-top: 5px;
+}
+
+.positon__details {
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.positon__name {
+  font-weight: 700;
+}
+
+.header__picture {
+  width: 600px;
+}
