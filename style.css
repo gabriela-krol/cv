@@ -94,6 +94,13 @@ body {
   margin-right: 4px;
 }
 
+.contact__container {
+  background-color: black;
+  color: white;
+  align-items: baseline;
+  padding: 4px;
+}
+
 @media (min-width: 768px) {
   .contact__container {
     display: flex;
@@ -114,13 +121,24 @@ body {
 }
 
 .contact__element--mail {
-  color: black;
+  color: white;
   padding: 0 4px;
+}
+
+.contact__icon--mail {
+  background-image: url(icons/mail-white.svg);
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
+.contact__element--mail:hover ~ .contact__icon--mail {
+  background-image: url(icons/mail.svg);
 }
 
 .contact__element--mail:hover {
   color: black;
   text-decoration: none;
   background-color: yellow
-
 }
