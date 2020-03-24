@@ -37,3 +37,5 @@
     }
 
 })();
+
+$('textarea').autoResize();
