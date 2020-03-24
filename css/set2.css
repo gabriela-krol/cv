@@ -152,3 +152,39 @@
 .contact__form {
 	padding: 50px 0;
 }
+
+
+
+.input__field--manami--focus,
+.input--filled .input__field--manami {
+	opacity: 1;
+	-webkit-transition: opacity 0s 0.2s;
+	transition: opacity 0s 0.2s;
+}
+
+.input__label--manami::before,
+.input__label--manami::after,
+.input__label-content--manami,
+.input__field--manami--focus,
+.input--filled .input__field--manami {
+	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+}
+
+.input__field--manami--focus + .input__label--manami::before,
+.input--filled .input__label--manami::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input__field--manami--focus + .input__label--manami::after,
+.input--filled .input__label--manami::after {
+	opacity: 0;
+}
+
+.input__field--manami--focus + .input__label--manami .input__label-content--manami,
+.input--filled .input__label--manami .input__label-content--manami {
+	color: #cbc4c6;
+	-webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
+	transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
+}

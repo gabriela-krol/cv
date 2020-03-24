@@ -1,7 +1,7 @@
 (function() {
     // Add event listener
     document.addEventListener("mousemove", parallax);
-    const elem = document.querySelector("#parallax");
+    const elem = document.querySelector("#parallax--portfolio");
     // Magic happens here
     function parallax(e) {
         let _w = window.innerWidth/2;
@@ -17,7 +17,3 @@
     }
 
 })();
-
-$('.input__field--manami').on('click', function(){
-    $(this).addClass('input__field--manami--focus');
-});
