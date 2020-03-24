@@ -209,3 +209,24 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+#button--send {
+  border-radius: 0;
+  text-transform: capitalize !important;
+  border-color: black;
+  color: black;
+  font-weight: 700;
+  padding: 10px 50px;
+  margin: 20px;
+}
+
+#button--send:hover {
+  background-color: black !important;
+  color: white;
+}
+
+#button--send:focus {
+  background-color: fuchsia !important;
+  border-color: fuchsia;
+  box-shadow: 0 0 40px 5px fuchsia;
+}
