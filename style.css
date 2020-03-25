@@ -206,8 +206,9 @@ body {
 
 .portfolio__elements img {
   padding-bottom: 40px;
+  max-width: 100%;
+  margin: 20px auto 0;
   display: block;
-  margin: 0 auto;
 }
 
 #button--send {
@@ -229,4 +230,8 @@ body {
   background-color: fuchsia !important;
   border-color: fuchsia;
   box-shadow: 0 0 40px 5px fuchsia;
+}
+
+.portfolio__element {
+  max-height: 450px;
 }
