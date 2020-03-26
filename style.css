@@ -48,7 +48,7 @@ body {
   width: 100%;
   margin: 30px 0;
   height: 360px;
-  background-image: url(photo2.jpg);
+  background-image: url(photo4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
@@ -57,12 +57,13 @@ body {
 #parallax p {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   opacity: .8;
   font-size: 70px;
   font-weight: 800;
+  color: white;
 }
 
 .parallax__container {
@@ -171,6 +172,24 @@ body {
   background-color: yellow
 }
 
+.contact__element--github {
+  color: white;
+  padding: 8px 4px;
+}
+
+.contact__icon--github {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
+.contact__element--github:hover {
+  color: black;
+  text-decoration: none;
+  background-color: blue
+}
+
 .position__dots__container {
   text-align: right;
 }
@@ -234,4 +253,28 @@ body {
 
 .portfolio__element {
   max-height: 450px;
+}
+
+input {
+  font-size: 16px;
+}
+
+.section__title--skills {
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: none;
+  margin: 10px 0 20px;
+  color: black;
+  background: yellow;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.portfolio--title {
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .8;
+  font-size: 70px;
+  font-weight: 800;
+  color: black;
 }
